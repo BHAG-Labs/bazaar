@@ -8,6 +8,8 @@ import Archive from './pages/Archive';
 import IssueDetail from './pages/IssueDetail';
 import AdminDashboard from './pages/AdminDashboard';
 import Profile from './pages/Profile';
+import Columnists from './pages/Columnists';
+import ColumnistDetail from './pages/ColumnistDetail';
 
 export default function App() {
   return (
@@ -15,6 +17,8 @@ export default function App() {
       <Route element={<PublicLayout variant="public" />}>
         <Route path="/" element={<Landing />} />
         <Route path="/archive" element={<Archive />} />
+        <Route path="/columnists" element={<Columnists />} />
+        <Route path="/columnists/:slug" element={<ColumnistDetail />} />
         <Route path="/issue/:id" element={<IssueDetail />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />

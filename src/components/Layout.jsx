@@ -14,6 +14,7 @@ function PublicNav() {
           <span className="text-[10px] text-charcoal/50 font-subheading">by BHAG Labs</span>
         </Link>
         <nav className="flex items-center gap-6">
+          <Link to="/columnists" className={linkCls}>Columnists</Link>
           <Link to="/archive" className={linkCls}>Archive</Link>
           <a href="https://bhaglabs.com" className={`${linkCls} hidden sm:inline`}>BHAG Labs ↗</a>
           {user ? (
@@ -44,6 +45,7 @@ function AppNav() {
           <span className="text-[10px] text-charcoal/50 font-subheading">by BHAG Labs</span>
         </Link>
         <nav className="flex items-center gap-6">
+          <Link to="/columnists" className={linkCls}>Columnists</Link>
           <Link to="/archive" className={linkCls}>Archive</Link>
           {isAdmin && <Link to="/admin" className={linkCls}>Admin</Link>}
           <Link to="/profile" className={linkCls}>Profile</Link>

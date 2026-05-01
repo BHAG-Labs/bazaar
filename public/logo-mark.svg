@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Bazaar">
+  <title>Bazaar — The Marketplace / Newspaper</title>
+  <rect width="256" height="256" fill="#f1ebe1"/>
+  <!-- Newspaper masthead frame -->
+  <rect x="32" y="44" width="192" height="168" fill="none" stroke="#1a1a1a" stroke-width="5"/>
+  <!-- Top rule -->
+  <rect x="40" y="56" width="176" height="3" fill="#1a1a1a"/>
+  <!-- Masthead 'B' bar -->
+  <rect x="40" y="68" width="40" height="40" fill="#c1502e"/>
+  <text x="60" y="100" text-anchor="middle" font-family="Playfair Display, Georgia, serif" font-weight="900" font-size="36" fill="#f1ebe1">B</text>
+  <!-- Headline lines -->
+  <rect x="88"  y="72"  width="128" height="6" fill="#1a1a1a"/>
+  <rect x="88"  y="86"  width="96"  height="4" fill="#1a1a1a" opacity="0.7"/>
+  <rect x="88"  y="98"  width="112" height="4" fill="#1a1a1a" opacity="0.5"/>
+  <!-- Middle rule -->
+  <rect x="40" y="120" width="176" height="2" fill="#1a1a1a"/>
+  <!-- Body columns -->
+  <g fill="#1a1a1a" opacity="0.55">
+    <rect x="40"  y="132" width="56" height="3"/>
+    <rect x="40"  y="140" width="56" height="3"/>
+    <rect x="40"  y="148" width="48" height="3"/>
+    <rect x="40"  y="156" width="56" height="3"/>
+    <rect x="40"  y="164" width="40" height="3"/>
+    <rect x="40"  y="172" width="56" height="3"/>
+    <rect x="40"  y="180" width="32" height="3"/>
+    <rect x="100" y="132" width="56" height="3"/>
+    <rect x="100" y="140" width="56" height="3"/>
+    <rect x="100" y="148" width="40" height="3"/>
+    <rect x="100" y="156" width="56" height="3"/>
+    <rect x="100" y="164" width="48" height="3"/>
+    <rect x="100" y="172" width="36" height="3"/>
+    <rect x="160" y="132" width="56" height="3"/>
+    <rect x="160" y="140" width="56" height="3"/>
+    <rect x="160" y="148" width="44" height="3"/>
+    <rect x="160" y="156" width="56" height="3"/>
+    <rect x="160" y="164" width="36" height="3"/>
+  </g>
+  <!-- Diamond punctuation -->
+  <path d="M128 196 L136 204 L128 212 L120 204 Z" fill="#c89b27"/>
+</svg>

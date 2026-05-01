@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 200" role="img" aria-label="Bazaar">
+  <title>Bazaar — The Marketplace</title>
+  <g transform="translate(8,16)">
+    <rect x="0" y="0" width="180" height="160" fill="none" stroke="#1a1a1a" stroke-width="4"/>
+    <rect x="6" y="10" width="168" height="3" fill="#1a1a1a"/>
+    <rect x="6" y="22" width="36" height="36" fill="#c1502e"/>
+    <text x="24" y="50" text-anchor="middle" font-family="Playfair Display, Georgia, serif" font-weight="900" font-size="32" fill="#f1ebe1">B</text>
+    <rect x="50"  y="26" width="120" height="5" fill="#1a1a1a"/>
+    <rect x="50"  y="38" width="92"  height="3" fill="#1a1a1a" opacity="0.7"/>
+    <rect x="50"  y="48" width="104" height="3" fill="#1a1a1a" opacity="0.5"/>
+    <rect x="6"   y="68" width="168" height="2" fill="#1a1a1a"/>
+    <g fill="#1a1a1a" opacity="0.55">
+      <rect x="6"   y="78"  width="50" height="2"/>
+      <rect x="6"   y="86"  width="50" height="2"/>
+      <rect x="6"   y="94"  width="42" height="2"/>
+      <rect x="6"   y="102" width="50" height="2"/>
+      <rect x="6"   y="110" width="36" height="2"/>
+      <rect x="64"  y="78"  width="50" height="2"/>
+      <rect x="64"  y="86"  width="50" height="2"/>
+      <rect x="64"  y="94"  width="38" height="2"/>
+      <rect x="64"  y="102" width="50" height="2"/>
+      <rect x="64"  y="110" width="42" height="2"/>
+      <rect x="122" y="78"  width="50" height="2"/>
+      <rect x="122" y="86"  width="50" height="2"/>
+      <rect x="122" y="94"  width="38" height="2"/>
+      <rect x="122" y="102" width="50" height="2"/>
+      <rect x="122" y="110" width="32" height="2"/>
+    </g>
+    <path d="M90 138 L97 145 L90 152 L83 145 Z" fill="#c89b27"/>
+  </g>
+  <g transform="translate(214,124)">
+    <text font-family="Playfair Display, Georgia, serif" font-weight="900" font-size="78" letter-spacing="-1" fill="#1a1a1a">Bazaar</text>
+    <text x="0" y="40" font-family="Cormorant Garamond, Georgia, serif" font-style="italic" font-weight="500" font-size="28" fill="#2a4942">बाज़ार — the marketplace</text>
+  </g>
+</svg>
