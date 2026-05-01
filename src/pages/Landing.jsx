@@ -80,19 +80,17 @@ export default function Landing() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-brand/10 via-transparent to-transparent pointer-events-none" />
-        <div className="max-w-3xl mx-auto px-4 pt-24 pb-16 text-center relative">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand/10 border border-brand/20 text-brand-light text-sm mb-8">
-            <span className="w-2 h-2 rounded-full bg-brand animate-pulse" />
-            Free, every Sunday
+      <section className="relative overflow-hidden paper-texture">
+        <div className="max-w-3xl mx-auto px-4 pt-20 pb-16 text-center relative z-10">
+          <div className="diamond-divider text-charcoal/40 max-w-[80px] mx-auto mb-8">
+            <span className="text-xs select-none">&#9670;</span>
           </div>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-tight mb-6">
-            India&apos;s Startup Economy.
-            <br />
-            <span className="text-brand-light">One Email. Every Sunday.</span>
+          <p className="section-label mb-6">India&apos;s Weekly Startup Newsletter — Free, Always</p>
+          <h1 className="font-heading font-black text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase leading-[0.95] tracking-tight text-forest mb-6">
+            India&apos;s Startup Economy.<br />
+            <span className="text-terracotta">One Email. Every Sunday.</span>
           </h1>
-          <p className="text-lg text-slate-400 max-w-xl mx-auto mb-10">
+          <p className="text-base md:text-lg text-charcoal/60 max-w-xl mx-auto mb-10 leading-relaxed">
             Funding signals you can act on. Regulatory shifts that affect your runway.
             Actionable deals — not just headlines.
           </p>
