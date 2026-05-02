@@ -10,6 +10,7 @@ import AdminDashboard from './pages/AdminDashboard';
 import Profile from './pages/Profile';
 import Columnists from './pages/Columnists';
 import ColumnistDetail from './pages/ColumnistDetail';
+import LegalPage from './pages/LegalPage';
 
 export default function App() {
   return (
@@ -22,6 +23,10 @@ export default function App() {
         <Route path="/issue/:id" element={<IssueDetail />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/privacy" element={<LegalPage kind="privacy" />} />
+        <Route path="/terms" element={<LegalPage kind="terms" />} />
+        <Route path="/grievance" element={<LegalPage kind="grievance" />} />
+        <Route path="/disclosure" element={<LegalPage kind="disclosure" />} />
       </Route>
 
       <Route element={<ProtectedRoute />}>
